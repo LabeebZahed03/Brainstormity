@@ -147,3 +147,8 @@ urllib3==2.5.0
 uvicorn==0.34.3
 xxhash==3.5.0
 zstandard==0.23.0
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+huggingface-hub==0.19.4
+pydantic==2.5.0

@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "BrainstormityBrain/main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "BrainstormityBrain/main.py"
+    }
+  ]
+}
